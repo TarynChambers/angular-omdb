@@ -1,0 +1,7 @@
+
+
+<ul>
+<li ng-repeat="episodes in vm.season.Episodes  | filter:query">
+  <a ui-sref="home.episode({seasonId: vm.season.Season, episodeId: episodes.Episode})">{{episodes.Title}}</a>
+</li>
+</ul>
