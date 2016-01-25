@@ -7,16 +7,19 @@ To setup locally:
 
 - Install required tools gulp and bower:
 
-> npm install -g gulp bower
+run this command:
+- npm install -g gulp bower
 
 browse to root project directory.
 
-run these commands
-> npm install
-> bower install
-> gulp build
+run these commands:
+- npm install
+- bower install
+- gulp build
 
-> gulp serve (to serve the site src files using browsersync)
+To view the site:
 
-> gulp serve:dist (to serve dist files)
+- gulp serve (to serve the site src files using browsersync)
+
+- gulp serve:dist (to serve dist files)
 
